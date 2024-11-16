@@ -1,0 +1,67 @@
+.success{
+    width:100%;
+    padding:10px;
+    color: #444;
+    font-size:small;
+}
+.error{
+    width:auto;
+    padding:10px;
+    color: red;
+    background-color: ;
+    font-size: small;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0); /* Transparent white background */
+    border-radius: 5px;
+}
+.container form{
+    background-color: rgb(255,255,255);
+    padding:10px;
+    border-radius:5px; 
+    padding-top:30px;
+}
+input[type="text"],
+input[type="email"],
+select,
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top:30px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.container h2{
+    color:#fff;
+}
+.container p input{
+    margin-top: 5px;
+    width:40%;
+    float: none;
+}
+.container p{
+    text-align: end;
+    float: none;
+    margin-left:auto;
+    color:#444;
+}
